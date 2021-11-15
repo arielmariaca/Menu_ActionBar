@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/nav_search"
+        android:icon="@drawable/ic_search"
+        android:title="@string/nav_buscar"
+        app:showAsAction="always"/>
+    <item
+        android:id="@+id/nav_add"
+        android:icon="@drawable/ic_add"
+        android:title="@string/nav_add"
+        app:showAsAction="never">
+        <menu>
+            <item
+                android:id="@+id/nav_addnew"
+                android:icon="@drawable/ic_add"
+                android:title="@string/nav_addnew"
+                app:showAsAction="never"/>
+            <item
+                android:id="@+id/nav_addold"
+                android:icon="@drawable/ic_add"
+                android:title="@string/nav_addold"
+                app:showAsAction="never"/>
+        </menu>
+    </item>
+    <item
+        android:id="@+id/nav_save"
+        android:icon="@drawable/ic_save"
+        android:title="@string/nav_guardar"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/nav_delete"
+        android:icon="@drawable/ic_delete"
+        android:title="@string/nav_delete"
+        app:showAsAction="never"/>
+</menu>

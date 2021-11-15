@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Menu_ActionBar</string>
+    <string name="nav_add">Agregar</string>
+    <string name="nav_addnew">Nueva</string>
+    <string name="nav_addold">Vieja</string>
+    <string name="nav_delete">Borrar</string>
+    <string name="nav_buscar">Buscar</string>
+    <string name="nav_guardar">Guardar</string>
+</resources>
